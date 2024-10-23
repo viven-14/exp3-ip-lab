@@ -1,0 +1,131 @@
+<html>
+<head>
+    <title>My Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .profile-header {
+            background: #007bff;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+            border-bottom: 3px solid #0056b3;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #fff;
+        }
+        .profile-header h1 {
+            margin-top: 15px;
+            font-size: 2.5rem;
+        }
+        .profile-header p {
+            font-size: 1.2rem;
+            color: #e9ecef;
+        }
+        .section-title {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .more-item {
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            margin-bottom: 20px;
+        }
+        .social-links a {
+            color: #007bff;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="profile-header">
+        <div class="container">
+            <img src="icon.png" alt="Profile Picture">
+            <h1>Viven Hotwani</h1>
+            <p>Web Developer | Front-end Specialist</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <section id="about">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <p>Hello! I’m Viven Hotwani, a passionate web developer with experience in creating dynamic and responsive websites. I specialize in front-end technologies like HTML, CSS, and JavaScript, and I'm proficient in frameworks like React and Bootstrap. I also have a keen interest in UX/UI design to ensure that my projects are not only functional but also visually appealing.</p>
+            <p>My goal is to leverage my skills to build innovative web solutions and continuously improve my expertise in the field of web development.</p>
+        </section>
+
+        <section id="more">
+            <div class="section-title">
+                <h2>More About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 more-item">
+                    <div class="card">
+                        <img src="qual.png" class="card-img-top" alt="More 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Qualifications</h5>
+                            <p class="card-text">I have done diploma in Computer Science from VES Polytechnic and currently pursuing B.E. from VES Institute of Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 more-item">
+                    <div class="card">
+                        <img src="achievement.png" class="card-img-top" alt="More 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Acheivements</h5>
+                            <p class="card-text">I have done my Internship in Web Development from Insys Technologies and i have also ranked at 3rd place at an Inter-School game designing competition conducted by CYBER CHAMP, PUNE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-title">
+                <h2>Connect With Me</h2>
+            </div>
+            <div class="contact-form">
+                <h2>Drop a Message :)</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="mt-4">
+                <p>Check out my socials :)</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/vivencodes" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/vivencodes" target="_blank">GitHub</a>
+                    <a href="https://twitter.com/vivencodes" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
